@@ -1,0 +1,155 @@
+header, .first_section, footer, header ul, .images, .quote_section, .ad_section, .ad{
+    display: flex;
+}
+
+header, .first_section, footer, header ul{
+    background-color: #1f2937;
+}
+
+header{
+    justify-content: center;
+    gap: 200px;
+}
+
+h2 {
+    color: #f9fafa;
+    font-size: 24px;
+}
+
+header ul{
+    list-style: none;
+    gap: 10px;
+}
+
+.first_section, .images, .quote_section{
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+.first_section{
+    gap: 50px;
+}
+
+.first_section button{
+    background-color: #3882f6;
+    padding: 4px 22px;
+    border-radius: 8px;
+    font-weight: 900;
+}
+
+.left_fs{
+    width: 400px;
+}
+
+.left_fs h1{
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    margin-bottom: -20px;
+} 
+
+.left_fs p, header ul, .first_section button{
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.place_holder{
+    width: 300px;
+    height: auto;
+}
+
+figcaption{
+    text-align: center;
+}
+
+.right_fs figcaption{
+    color: #f9faf8; 
+}
+
+.info_section h2{
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.images figure{
+    border: 2px solid #3882f6;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+}
+
+.info_image{
+    width: 150px;
+    height: 150px;
+}
+
+.quote_section{
+    background-color: #e5e7eb;
+    padding: 100px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote{
+    font-size: 36px;
+    font-weight: bolder;
+    font-style: italic;
+    color: #1f2937;
+    width: 800px;
+}
+
+.quoter{
+    font-size: 24px;
+    color: black;
+    align-self: flex-end;
+    font-weight: bold;
+}
+
+.ad_section{
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.ad{
+    background-color: #3882f6;
+    width: 800px;
+    height: 100px;
+    padding: 12.5px;
+    border-radius: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.first_line{
+    color: #f9faf8;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: -10px;
+}
+
+.second_line{
+    color: #f9faf8;
+    font-size: 18px;
+}
+
+.ad button{
+    background-color: #3882f6;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: #f9faf8;
+    padding: 8px 32px;
+    font-weight: bolder;
+}
+
+footer{
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    color: #e5e7eb;
+    font-size: 18px;
+}
